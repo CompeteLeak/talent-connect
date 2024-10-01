@@ -1,0 +1,78 @@
+/* Footer container */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000; /* Black background */
+  color: #ffffff !important; /* White text */
+}
+
+/* Footer logo container */
+.footer-logo-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px; /* Add some space on the left */
+}
+
+/* Social icons container */
+.social-icons {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Social icons styling */
+.icon {
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #ff0000; /* Red on hover */
+}
+
+/* Footer text container */
+.footer-text-container {
+  flex: 1;
+  text-align: right;
+  padding-right: 20px; /* Add some space on the right */
+}
+
+/* Footer text */
+.footer-text {
+  margin: 0;
+  color: #ffffff !important; /* Make sure the text is white */
+  font-size: 14px;
+  display: block; /* Ensure the text is displayed */
+  opacity: 1; /* Ensure full visibility */
+}
+
+/* Footer logo */
+.footer-logo {
+  height: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .icon {
+    font-size: 25px;
+  }
+
+  .footer-logo-container {
+    padding-left: 10px; /* Adjust for smaller screens */
+  }
+
+  .footer-text-container {
+    padding-right: 10px;
+    text-align: center; /* Center the text on smaller screens */
+  }
+
+  .social-icons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

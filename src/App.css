@@ -1,0 +1,86 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar {
+  background-color: #000000; /* Black background for the nav */
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; /* Spread the tabs evenly */
+}
+
+.navbar ul li {
+  margin: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #ffffff; /* White text for the inactive tabs */
+  font-weight: bold;
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar ul li a:hover {
+  color: #ff0000; /* Red on hover */
+}
+
+.active-tab {
+  border-bottom: 3px solid #ff0000; /* Red underline for active tab */
+  color: #ff0000; /* Red text for active tab */
+}
+
+.App {
+  text-align: center;
+  padding: 40px;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  color: #ff0000; /* Red for main headings */
+}
+
+.App p {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* Logo Styling */
+.logo {
+  display: block;
+  margin: 20px auto;  /* Centers the logo */
+  width: 120px;  /* Set an initial width for the logo */
+  height: 120px;  /* Same height to make it a perfect circle */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;  /* Ensures the image covers the circle without distortion */
+  transition: width 0.3s ease, height 0.3s ease;  /* Smooth resizing */
+}
+
+/* Media Query for Responsiveness */
+@media (min-width: 768px) {
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 180px;
+    height: 180px;
+  }
+}
+

@@ -1,0 +1,94 @@
+/* Centering the contact form container */
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Form heading and description */
+.contact-form-container h2 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.contact-form-container p {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* Styling the form */
+.contact-form {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+.contact-form div {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.contact-form input[type="file"] {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ff0000;
+}
+
+/* Submit button styling */
+.contact-form button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* File upload text */
+.contact-form p {
+  margin: 0;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-form {
+    width: 90%;
+  }
+}

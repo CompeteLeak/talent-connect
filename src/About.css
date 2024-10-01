@@ -1,0 +1,83 @@
+/* Main About container */
+.about-container {
+  padding: 40px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Video Section */
+.video-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; /* Slightly more spacing for better visual balance */
+}
+
+.about-video {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for a modern touch */
+}
+
+/* About Content Section */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px; /* Add space between text and image */
+}
+
+/* About text */
+.about-text {
+  flex: 2;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  color: #333333; /* Subtle dark gray for titles */
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px; /* Light letter spacing for elegance */
+  text-transform: uppercase; /* All caps for emphasis */
+  border-bottom: 2px solid #000; /* Bottom border for separation */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555555; /* Softer black for body text for readability */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* CEO Image */
+.ceo-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ceo-image img {
+  width: 100%;
+  max-width: 350px; /* Slightly larger for emphasis */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for the image */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .ceo-image {
+    margin-top: 30px;
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+  }
+}
