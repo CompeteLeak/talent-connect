@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/git@github.com:CompeteLeak/talent-connect.git/static/css/main.86353cdd.css",
+    "main.js": "/git@github.com:CompeteLeak/talent-connect.git/static/js/main.c5d6cb17.js",
+    "static/js/453.1798204e.chunk.js": "/git@github.com:CompeteLeak/talent-connect.git/static/js/453.1798204e.chunk.js",
+    "static/media/aboutReel.mp4": "/git@github.com:CompeteLeak/talent-connect.git/static/media/aboutReel.8d73b40ce0436c8c96a5.mp4",
+    "static/media/Strategy-Session.mp4": "/git@github.com:CompeteLeak/talent-connect.git/static/media/Strategy-Session.638bb6fa13820bffe7a3.mp4",
+    "static/media/work2.png": "/git@github.com:CompeteLeak/talent-connect.git/static/media/work2.fe63852ca0386486d9b9.png",
+    "static/media/LOGO.PNG": "/git@github.com:CompeteLeak/talent-connect.git/static/media/LOGO.d34283b44b6570ec0087.PNG",
+    "static/media/work4.png": "/git@github.com:CompeteLeak/talent-connect.git/static/media/work4.c38ba5eb3a4886117428.png",
+    "static/media/work1.png": "/git@github.com:CompeteLeak/talent-connect.git/static/media/work1.4c80eaf0500792048238.png",
+    "static/media/ceo.jpg": "/git@github.com:CompeteLeak/talent-connect.git/static/media/ceo.bfc6adf0383363f6c899.jpg",
+    "static/media/work3.png": "/git@github.com:CompeteLeak/talent-connect.git/static/media/work3.f672f9929857c5722ea2.png",
+    "static/media/work5.png": "/git@github.com:CompeteLeak/talent-connect.git/static/media/work5.70e627e743d10c838d4e.png",
+    "index.html": "/git@github.com:CompeteLeak/talent-connect.git/index.html",
+    "main.86353cdd.css.map": "/git@github.com:CompeteLeak/talent-connect.git/static/css/main.86353cdd.css.map",
+    "main.c5d6cb17.js.map": "/git@github.com:CompeteLeak/talent-connect.git/static/js/main.c5d6cb17.js.map",
+    "453.1798204e.chunk.js.map": "/git@github.com:CompeteLeak/talent-connect.git/static/js/453.1798204e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86353cdd.css",
+    "static/js/main.c5d6cb17.js"
+  ]
+}
